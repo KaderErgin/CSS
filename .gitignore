@@ -4,4 +4,6 @@
 *.jpg
 *.jpeg
 images/
-Contact.html
+# log
+css/Contact.html
+password.txt
