@@ -29,8 +29,8 @@ li {
 }
 .Second_Part
 {
-   /* background-color: #68dfd3;*/
-   background-color: #68dfd3;
+    background-color: #5fcabf;
+   
    width: 18%;
     margin: 0;
     text-align: center;
@@ -41,9 +41,9 @@ li {
 
 .Third_Part
 {
-    /*background-color: #54bab0;*/
+    background-color: #54bab0;
     width: 40%;
-    background-color: #62B3AA;
+
     margin: 0% 0.2%;
     text-align: center;
     height: 82px;
