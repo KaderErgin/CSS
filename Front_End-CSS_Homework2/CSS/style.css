@@ -7,27 +7,45 @@
 {
     text-align: center;
     background-color: rgb(236, 221, 221);
-    margin: 0 60px 2px;
+    margin: 0  0 0.5% 2%;
 }
 .First_Part
 {
     background-color: #75e8dc;
-    text-align: center;
     width: 37%;
     height: 73px;
-    margin: 0 2px 0 60px;
-    padding-top: 17px;  
-}
 
+    text-align: center;
+    margin: 0 0.2% 0 2%;
+    padding-top: 16px;  
+    
+}
+aside {
+    float: left;
+    margin: 0 40px;
+}
 li {
     list-style-type: none;
 }
 .Second_Part
 {
-    background-color: #75e8dc;
+   /* background-color: #68dfd3;*/
+   background-color: #68dfd3;
+   width: 18%;
+    margin: 0;
     text-align: center;
-    width: 37%;
-    height: 73px;
-    margin: 0 2px 0 60px;
-    padding-top: 17px;  
+    height: 82px;
+    padding: 4px;
+    
+}
+
+.Third_Part
+{
+    /*background-color: #54bab0;*/
+    width: 40%;
+    background-color: #62B3AA;
+    margin: 0% 0.2%;
+    text-align: center;
+    height: 82px;
+    padding: 4px;
 }
