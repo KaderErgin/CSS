@@ -15,10 +15,19 @@
     text-align: center;
     width: 37%;
     height: 73px;
-    margin: 0 0.2% 0 50px;
-    padding-top: 16px;  
+    margin: 0 2px 0 60px;
+    padding-top: 17px;  
 }
 
 li {
     list-style-type: none;
+}
+.Second_Part
+{
+    background-color: #75e8dc;
+    text-align: center;
+    width: 37%;
+    height: 73px;
+    margin: 0 2px 0 60px;
+    padding-top: 17px;  
 }
