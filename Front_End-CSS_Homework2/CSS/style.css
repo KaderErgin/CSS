@@ -7,4 +7,18 @@
 {
     text-align: center;
     background-color: rgb(236, 221, 221);
+    margin: 0 60px 2px;
+}
+.First_Part
+{
+    background-color: #75e8dc;
+    text-align: center;
+    width: 37%;
+    height: 73px;
+    margin: 0 0.2% 0 50px;
+    padding-top: 16px;  
+}
+
+li {
+    list-style-type: none;
 }
