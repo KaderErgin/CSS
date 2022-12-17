@@ -22,7 +22,7 @@ body
     height: 75px;
 }
 
-aside{ /*İcerik bolumleri yan yana olsun*/
+aside{ /*Icerik bolumleri yan yana olsun*/
     float: left;
     margin: 0 40px;
 }
