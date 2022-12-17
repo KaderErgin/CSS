@@ -1,4 +1,7 @@
-
+body
+{
+    list-style-type: none;/*Madde isaretleri olmasın*/
+}
 .img_header {
     text-align: center;
 }
@@ -8,9 +11,7 @@
     margin: 0  0 0.5% 2%;
     text-align: center;
 }
-li {
-    list-style-type: none;/*Madde isaretleri olmasın*/
-}
+
 .First_Part
 {
     background-color: #75e8dc;
@@ -21,7 +22,7 @@ li {
     height: 75px;
 }
 
-aside { /*İcerik bolumleri yan yana olsun*/
+aside{ /*İcerik bolumleri yan yana olsun*/
     float: left;
     margin: 0 40px;
 }
@@ -53,5 +54,5 @@ aside { /*İcerik bolumleri yan yana olsun*/
     font-size: smaller;
     margin-top: 18px;
     text-align: center;
-    
+
 }
