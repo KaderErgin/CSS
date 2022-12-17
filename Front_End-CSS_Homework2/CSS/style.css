@@ -2,54 +2,55 @@
 .img_header {
     text-align: center;
 }
-
 .Searc
 {
-    text-align: center;
     background-color: rgb(236, 221, 221);
     margin: 0  0 0.5% 2%;
+    text-align: center;
+}
+li {
+    list-style-type: none;/*Madde isaretleri olmasın*/
 }
 .First_Part
 {
     background-color: #75e8dc;
-    width: 37%;
-    height: 73px;
     text-align: center;
     margin: 0 0.2% 0 2%;
-    padding-top: 16px;  
-    
+    padding-top:16.5px;  
+    width: 35%;
+    height: 75px;
 }
-aside {
+
+aside { /*İcerik bolumleri yan yana olsun*/
     float: left;
     margin: 0 40px;
 }
-li {
-    list-style-type: none;
-}
+
 .Second_Part
 {
     background-color: #5fcabf;
-    width: 18%;
+    width: 19%;
     margin: 0;
     text-align: center;
-    height: 82px;
+    height: 83px;
     padding: 4px;
     
 }
-
 .Third_Part
 {
     background-color: #54bab0;
-    width: 40%;
+    width: 42%;
     margin: 0% 0.2%;
     text-align: center;
-    height: 82px;
+    height: 83px;
     padding: 4px;
+    
 }
 .footer_clear {
    clear: both;/*float etkisini kaldırmak için*/
 }
 .footer {
+    font-size: smaller;
+    margin-top: 18px;
     text-align: center;
-    margin-top: 15px;
 }
