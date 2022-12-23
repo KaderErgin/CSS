@@ -100,7 +100,7 @@ ul {
   }
   
   .Googlebuttons button:hover {
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 3px 0 rgba(24, 24, 24, 0.24), 0 2px 5px 0 rgba(12, 11, 11, 0.19);
   }
   
   .voice_call{/*Google sesli arama kısmı*/
