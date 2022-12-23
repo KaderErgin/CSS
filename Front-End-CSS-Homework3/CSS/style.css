@@ -1,17 +1,26 @@
+.container {
+  margin: 110px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
-    list-style-type: none;
-    margin: 10px;
-    overflow: hidden;
     margin-right: 16px;
-    font-family: arial,sans-serif;
-    font-size: 13px;
+    list-style-type: none;
+    margin: 12px;
     text-decoration: none;
+    overflow: hidden;
+    font-family: arial,sans-serif;
+    font-size: 15px;
   }
-  
   .headerli a {
-    display: block;
     color: black;
-    padding: 5px 5px;
+    display: block;
+    padding: 6px 6px;
     text-decoration:none;
   }
   .listleft
@@ -20,45 +29,19 @@
   }
   .listleft a {
     display: block;
-    color: #70757a;
+    color: #74797e;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     font-family: arial, sans-serif;
     font-size: 14px;
     margin-left: 14px;
     margin-right: -20px;
   }
-  
-  /*.headerliLeft {
-    float: left;
-    text-decoration:none;
-    margin:8px;
-  }*/
-  .f {
+  .listright {
     float: left;
   }
   
-  .f a {
-    display: block;
-    color: #70757a;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    margin-left: 14px;
-    margin-right: -20px;
-  }
-
-
-/**/
-
-  
-  .listright{
-    float:right; 
-   
-  }
   .listright a {
     display: block;
     color: #70757a;
@@ -67,130 +50,133 @@
     text-decoration: none;
     font-family: arial, sans-serif;
     font-size: 14px;
-   
+    margin-left: 14px;
+    margin-right: -20px;
   }
-
+/**/  
   .headerli a:hover {
     text-decoration:none;
   }
-  .container {
-    text-align: center;
-    margin: 100px;
+  
+  .pPhoto {/* Google profil photo*/
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
   }
   
-  .search-area {
-    background: #fff;
-    display: flex;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    z-index: 3;
+  .search-part {
     height: 44px;
     margin: 0 auto;
-    margin-top: -77px;
-    width: 582px;
-    border-radius: 24px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dcdfe6;
+    box-shadow: none;
+    z-index: 3;
+    margin-top: -78px;
+    width: 580px;
+    border-radius: 25px;
   }
-  
-  .search-area:hover {
+  .search-part:hover {
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   }
-  
+
   .search {
-    flex: 1;
     display: flex;
-    padding: 5px 8px 0 16px;
+    padding: 5px 7px 0 16px;
+    flex: 1;
     padding-left: 14px;
   }
   
   .search-img {/*arama kutusu logosu*/
     display: flex;
+    padding-right: 14px;
     align-items: center;
-    padding-right: 13px;
-    margin-top: -5px;
+    margin-top:1px;
+    
+  }
+  .Googlebuttons {/*Button genel*/
+    text-align: center;
+    
   }
   
-  .search-img span {
-    color: #9aa0a6;
-    height: 20px;
-    width: 20px;
-    margin-top: 0px;
-    display: inline-block;
-    fill: currentColor;
-    line-height: 24px;
-    position: relative;
+  .Googlebuttons button:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
   }
   
-  .input-enter {/*arama kısmı kutusu*/
+  .voice_call{/*Google sesli arama kısmı*/
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-end;
+    margin: 2px 0px;
+  }
+  .input-Layout {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     align-items: center;
   }
   
-  .input-area {/*arama kısmı kutusu*/
+  .input-box {
+    height: 35px;
     color: transparent;
     flex: 100%;
     white-space: pre;
+    display: block;
     font: 16px arial, sans-serif;
     line-height: 34px;
-    height: 34px !important;
-    display: block;
   }
   
   .input {/*arama kısmı kutusu*/
     margin: 0;
     padding: 0;
-    color: rgba(0, 0, 0, 0.87);
-    word-wrap: break-word;
+    width: 480px;
+    border: none;
+    color:black;
+    word-wrap: break-word;/*Google arama kutusundaki kelimeyi satır başına atmak için kullanılır*/
     outline: none;
     display: flex;
     flex: 100%;
-    margin-top: -68px;
-    font: 16px arial, sans-serif;
+    margin-top:-68px;
+    font: 17px arial, sans-serif;
     line-height: 34px;
-    height: 34px !important;
-    text-rendering: auto;
-    letter-spacing: normal;
+    height: 34px ;
     word-spacing: normal;
     text-transform: none;
-    text-indent: 0px;
     text-shadow: none;
     text-align: start;
     appearance: textfield;
     cursor: text;
     width: 480px;
-    border: none;
   }
   
-  .googlesearch {/*button1*/
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    min-width: 54px;
+  .googlesearch {/*FirstButton*/
     text-align: center;
-    cursor: pointer;
-    user-select: none;
-    border: 1px solid #f2f2f2;
-    font-size: 14px;
     font-family: Arial;
+    width: 152px;
+    margin: 20px 5px;
+    padding: 0 17px;
+    cursor: pointer;/*Uzerine geldiginde imlec degistirmek icin*/
+    user-select: none;/*Buton icindeki metin secimini engelle*/
+    border: 1px solid #f2f2f2;
+    font-size: 15px;
+    border-radius:3px;
     color: #5f6368;
-    height:36px;
-    border-radius: 4px;
+    height:37px;
   }
   
-  .feelinglucky {/*button2*/
-    padding: 0 16px;
-    line-height: 27px;
-    min-width: 54px;
+  .feelinglucky {/*Second_Button*/
+    padding: 0 17px;
+    width: 154px;
     text-align: center;
-    cursor: pointer;
-    user-select: none;
+    border-radius:3px;
+    cursor: pointer;/*Uzerine geldiginde imlec degistirmek icin*/
+    user-select: none;/*Buton icindeki metin secimini engelle*/
     border: 1px solid #f2f2f2;
-    font-size: 14px;
+    font-size: 15px;
     font-family: Arial;
     color: #5f6368;
-    height:36px;
-    border-radius: 4px;
+    height:37px;
   }
   
   .footer { /*Alt kısım*/
@@ -209,7 +195,7 @@
   .footerli {/*footer link*/
     float: left;
   }
-  
+
   .footerli a {/*footer link*/
     display: block;
     color: #70757a;
@@ -226,31 +212,7 @@
     text-decoration: underline;
   }
   
-  .profilePhoto {/* Google profil photo*/
-    height: 50px;
-    width: 50px;
-    border-radius: 30px;
-  }
   
-  .buttons {/*Button genel*/
-    text-align: center;
-    
-  }
   
-  .buttons button:hover {
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
-  }
   
-  .voiceSearch {/*Google sesli arama kısmı*/
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    justify-content: flex-end;
-  }
   
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
