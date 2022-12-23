@@ -5,24 +5,27 @@
     margin-right: 16px;
     font-family: arial,sans-serif;
     font-size: 13px;
+    text-decoration: none;
   }
   
   .headerli a {
     display: block;
     color: black;
     padding: 5px 5px;
-    text-decoration: none;
+    text-decoration:none;
   }
   
   .headerliLeft {
     float: left;
+    text-decoration:none;
+    margin:8px;
   }
   
-  .headerliRight {
+  .headerliRight{
     float: right;
   }
   .headerli a:hover {
-    text-decoration: underline;
+    text-decoration:none;
   }
   .container {
     text-align: center;
