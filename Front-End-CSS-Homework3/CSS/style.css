@@ -29,7 +29,7 @@ ul {
   }
   .listleft a {
     display: block;
-    color: #74797e;
+    color: #4e5155;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
@@ -37,6 +37,9 @@ ul {
     font-size: 14px;
     margin-left: 14px;
     margin-right: -20px;
+   font-weight: 540;
+   font-size:medium;
+   
   }
   .listright {
     float: left;
@@ -52,6 +55,7 @@ ul {
     font-size: 14px;
     margin-left: 14px;
     margin-right: -20px;
+    font-size:medium;
   }
 /**/  
   .headerli a:hover {
