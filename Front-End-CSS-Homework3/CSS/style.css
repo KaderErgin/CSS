@@ -14,16 +14,62 @@
     padding: 5px 5px;
     text-decoration:none;
   }
+  .listleft
+  {
+    float: left;
+  }
+  .listleft a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
   
-  .headerliLeft {
+  /*.headerliLeft {
     float: left;
     text-decoration:none;
     margin:8px;
+  }*/
+  .f {
+    float: left;
   }
   
-  .headerliRight{
-    float: right;
+  .f a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
   }
+
+
+/**/
+
+  
+  .listright{
+    float:right; 
+   
+  }
+  .listright a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+   
+  }
+
   .headerli a:hover {
     text-decoration:none;
   }
@@ -56,7 +102,7 @@
     padding-left: 14px;
   }
   
-  .search-img {
+  .search-img {/*arama kutusu logosu*/
     display: flex;
     align-items: center;
     padding-right: 13px;
@@ -74,14 +120,14 @@
     position: relative;
   }
   
-  .input-enter {
+  .input-enter {/*arama kısmı kutusu*/
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     align-items: center;
   }
   
-  .input-area {
+  .input-area {/*arama kısmı kutusu*/
     color: transparent;
     flex: 100%;
     white-space: pre;
@@ -91,7 +137,7 @@
     display: block;
   }
   
-  .input {
+  .input {/*arama kısmı kutusu*/
     margin: 0;
     padding: 0;
     color: rgba(0, 0, 0, 0.87);
@@ -116,7 +162,7 @@
     border: none;
   }
   
-  .googlesearch {
+  .googlesearch {/*button1*/
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
@@ -132,7 +178,7 @@
     border-radius: 4px;
   }
   
-  .feelinglucky {
+  .feelinglucky {/*button2*/
     padding: 0 16px;
     line-height: 27px;
     min-width: 54px;
@@ -147,7 +193,7 @@
     border-radius: 4px;
   }
   
-  .footer {
+  .footer { /*Alt kısım*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -160,11 +206,11 @@
     background-color: #f2f2f2;
   }
   
-  .footerli {
+  .footerli {/*footer link*/
     float: left;
   }
   
-  .footerli a {
+  .footerli a {/*footer link*/
     display: block;
     color: #70757a;
     text-align: center;
@@ -176,25 +222,26 @@
     margin-right: -20px;
   }
   
-  .footerli a:hover {
+  .footerli a:hover {/*footer link*/
     text-decoration: underline;
   }
   
-  .profilePhoto {
+  .profilePhoto {/* Google profil photo*/
     height: 50px;
     width: 50px;
     border-radius: 30px;
   }
   
-  .buttons {
+  .buttons {/*Button genel*/
     text-align: center;
+    
   }
   
   .buttons button:hover {
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
   }
   
-  .voiceSearch {
+  .voiceSearch {/*Google sesli arama kısmı*/
     display: flex;
     align-items: center;
     cursor: pointer;
