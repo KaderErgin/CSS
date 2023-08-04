@@ -6,4 +6,4 @@
 
 ## [Front-End-CSS-Homework3(Google_Homepage)](https://github.com/KaderErgin/CSS/tree/main/Front-End-CSS-Homework3)<br>
 
-### [patika](https://academy.patika.dev/tr/profile)<br>
+### [patika](https://academy.patika.dev/tr/profile)
