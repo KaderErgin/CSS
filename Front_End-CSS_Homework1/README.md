@@ -7,7 +7,7 @@
 ![github](https://github.com/KaderErgin/CSS/blob/main/Front_End-CSS_Homework1/images/css_1.jpg)
 ![github](https://github.com/KaderErgin/CSS/blob/main/Front_End-CSS_Homework1/images/css_2.jpg)
 #### Products page
-> Bu sayfada ise ürün görselleri ve fiyatları bulunmaktadır. <br>
+> Bu sayfada ise ürün görselleri ve fiyatları bulunmaktadır.
 ![github](https://github.com/KaderErgin/CSS/blob/main/Front_End-CSS_Homework1/images/css3.jpg)
 #### Contact page
 ![github](https://github.com/KaderErgin/CSS/blob/main/Front_End-CSS_Homework1/images/css4.jpg)
