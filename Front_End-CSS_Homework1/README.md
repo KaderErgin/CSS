@@ -1,5 +1,5 @@
 # CSS
-# Front-End-CSS-Homework1
+# Front-End-CSS-Homework-1
 ### [patika](https://academy.patika.dev/tr/profile)
 #### Home page
 > Web sitesindeki ürünler başlıklar halinde alt alta listelenmiş bir düzendedir.
