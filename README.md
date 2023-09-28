@@ -1,6 +1,6 @@
 # CSS Homeworks
 
-1. ## [Front-End-CSS-Homework1(Tech_Store)](https://github.com/KaderErgin/CSS/tree/main/Front_End-CSS_Homework1)<br>
+ ## 1. [Front-End-CSS-Homework1(Tech_Store)](https://github.com/KaderErgin/CSS/tree/main/Front_End-CSS_Homework1)<br>
 
 2. ## [Front-End-CSS-Homework2(Google_1998)](https://github.com/KaderErgin/CSS/tree/main/Front_End-CSS_Homework2)<br>
 
