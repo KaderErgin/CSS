@@ -1,4 +1,4 @@
-# CSS Homeworks
+# CSS Studies
 
  ### 1. [Front-End-CSS-Homework1(Tech_Store)](https://github.com/KaderErgin/CSS/tree/main/Front_End-CSS_Homework1)
  ### 2. [Front-End-CSS-Homework2(Google_1998)](https://github.com/KaderErgin/CSS/tree/main/Front_End-CSS_Homework2)
